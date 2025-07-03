@@ -1,3 +1,1 @@
-1 2 3 4 5 
-The length of the Linked List is: 5 
-Element is Found
+1 2 3 4 5 6 7 

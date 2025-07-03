@@ -1,8 +1,9 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int main(){
-    int x = 2, n = 21;
-    int ans = 1;
+    unsigned long long x = 2, n = 63;
+    unsigned long long ans = 1;
     while(n > 0){
         if(n % 2 == 0){
             n = n / 2;
