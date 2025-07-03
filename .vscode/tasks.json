@@ -13,7 +13,14 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": []
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "never",          // Do NOT reveal terminal
+                "focus": false,             // Don't focus terminal even if it opens
+                "panel": "shared",          // Use shared terminal (not new one each time)
+                "showReuseMessage": false,  // Hide reuse messages
+                "clear": false              // Keep previous terminal output if opened manually
+            }
         }
     ]
 }
