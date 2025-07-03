@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile and run with redirection",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "g++ -std=c++17 -o \"${fileDirname}/${fileBasenameNoExtension}\" \"${file}\" && \"${fileDirname}/${fileBasenameNoExtension}\" < \"${fileDirname}/input.txt\" > \"${fileDirname}/output.txt\" 2> \"${fileDirname}/error.txt\""
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
