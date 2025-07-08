@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main(){
-    ull base = 20, pow = 11;
+    ull base = 60, pow = 11;
     ull mod = 1e9+7;
     ull ans = 1;
     while(pow){
